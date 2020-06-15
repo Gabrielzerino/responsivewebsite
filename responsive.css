@@ -69,15 +69,18 @@ li:last-child{
     float: none;
 }
 
+.servicesgrid{
+margin-left: 10%;
+height: auto;
+}
+
 .services{
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 10%;
     margin-top: 5%;
-    width: 60%;
-    float: none;
+    width: 40%;
+    text-align: center;
 }
 
 .servimg{
     border-radius: 5px;
-
 }
