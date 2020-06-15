@@ -20,15 +20,16 @@
 }
 
 h3{
-    margin-top: 12px;
-    margin-left: 17%;
+    margin-top: 8px;
+    margin-left: 12%;
+    font-size: 30px;
 
 }
 
 #menubutton{
     width: 9%;
     float: right;
-    margin: 3px;
+    margin: 12px;
 }
 
 ul{
@@ -43,7 +44,7 @@ li {
     float: left;
     font-size: 12px;
     margin-left: 10px;
-    margin-top: 12px;
+    margin-top: 5%;
 }
 
 li:last-child{
@@ -53,10 +54,9 @@ li:last-child{
 #closemenu{
     width: 5%;
     float: right;
-    margin: 3px;
-    margin-left: 35%;
+    margin-left: 32%;
     display: none;
-    margin-top: 7px;
+    margin-top: 12px;
     position: fixed;
     z-index: 2;
 }
@@ -81,6 +81,7 @@ li:last-child{
     margin-top: 5%;
     width: 70%;
     margin: 1%;
+    margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
     float: none;
