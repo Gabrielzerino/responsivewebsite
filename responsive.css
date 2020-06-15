@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}
+
+/*Top menu*/
+.header{
+    background-color: darkgrey;
+    position: sticky;
+}
+
+#logo{
+    width: 15%;
+    border-radius: 40px;
+}
+
+h3{
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+#menubutton{
+    width: 9%;
+    float: right;
+    margin: 3px;
+}
+
+ul{
+width: 90%;
+display: none;
+position: fixed;
+margin-left: 55px;
+}
+
+li {
+    width: 18%;
+    float: left;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+li:last-child{
+    margin-left: 0px;
+}
+
+#closemenu{
+    width: 5%;
+    float: right;
+    margin: 3px;
+    margin-left: 35%;
+    display: none;
+    margin-top: 7px;
+    position: fixed;
+    z-index: 2;
+}
+
+/*Services DIVs*/
+
+#pagetitle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    float: none;
+}
+
+.services{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 60%;
+    float: none;
+}
+
+.servimg{
+    border-radius: 5px;
+
+}
