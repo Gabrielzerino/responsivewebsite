@@ -6,17 +6,26 @@
     box-sizing: border-box;
     float: left;
     display: block;
+
 }
 
 /*Top menu*/
 .header{
     background-image: linear-gradient(to right, black, darkgrey);
     position: fixed;
+    color: whitesmoke;
 }
 
+body{
+    background-color: rgba(152, 155, 163, 0.5);
+}
 #logo{
     width: 20%;
     border-radius: 90px;
+}
+
+p{
+    font-size: 12px;
 }
 
 h3{
@@ -37,6 +46,8 @@ width: 90%;
 display: none;
 position: fixed;
 margin-left: 20%;
+color: whitesmoke;
+
 }
 
 li {
