@@ -14,6 +14,7 @@
     background-image: linear-gradient(to right, black, darkgrey);
     position: fixed;
     color: whitesmoke;
+    height: 57px;
 }
 
 body{
